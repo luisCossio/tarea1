@@ -249,7 +249,7 @@ def train_and_evaluate(X_train,X_test,Y_train,Y_test,number_of_iterations = 150,
 
 iterations = 1000
 conf_matrix, error_train, error_val = train_and_evaluate(X_train,X_test,Y_train,Y_test,iterations,N_h = 25)
-
+print(conf_matrix)
 generations = np.linspace(0,iterations,(len(error_val)))
 plt.plot(generations,error_val,label = "val")
 plt.plot(generations,error_train,label = "train")
