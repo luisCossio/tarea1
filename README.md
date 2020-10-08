@@ -45,7 +45,7 @@ To use the neural network just run the python program with the following command
 ```
 python NeuralNetwork.py 
 ```
-This loads the dataset, split it and normalize it. Then trains the network, show the confusion and matrix and plot the error, 
+This loads the dataset, split it and normalize it. Then trains the network, show the confusion and matrix and plot the error.
 
 
 ## Info
